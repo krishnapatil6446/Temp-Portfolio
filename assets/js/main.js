@@ -29,6 +29,20 @@ function headerShadow() {
 
   }
 }
+/* ---------Download CV Logic---------- */
+document.getElementById("downloadBtn").addEventListener("click", function() {
+  const a = document.createElement("a");
+  a.href = "./assets/KrishnaResumeOverLeaf.pdf";  // Path to the file to be downloaded
+  a.download = "KrishnaResume.pdf";  // File name to save as
+  a.click();
+});
+document.getElementById("downloadBtn2").addEventListener("click", function() {
+  const a = document.createElement("a");
+  a.href = "./assets/KrishnaResumeOverLeaf.pdf";  // Path to the file to be downloaded
+  a.download = "KrishnaResume.pdf";  // File name to save as
+  a.click();
+});
+
 
 
 /* ----- TYPING EFFECT ----- */
